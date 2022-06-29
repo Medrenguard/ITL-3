@@ -16,8 +16,7 @@ function addWay(trainId, wayName) {
         structure.data[trainId] = [];
     }
     structure.data[trainId].push(wayName);
-    // TODO запуск этого метода сортирует основной массив. Надо ли это?
-    return structure.getData();
+    return 'Маршрут добавлен';
 }
 
 addWay(123,'Д7');
